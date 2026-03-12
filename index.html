@@ -7,6 +7,25 @@
                 background-color: #f7f5e9;
                 font-family: 'JMH Typewriter', sans-serif;
             }
+            .sidebar.collapsed {
+              transform: translateX(-100%);
+            }
+            .top-navbar {
+              background-color: #5f6e59;
+              color: #f7f5e9;
+              padding: 15px;
+              position: sticky;
+              top: 0;
+              z-index: 1000;
+            }
+            .sidebar {
+              height: 100vh;
+              position: fixed;
+              width: 250px;
+              background-color: #5f6e59;
+              transition: transform .3s ease-in-out;
+              border-top-right-radius: 20px;
+            }
         </style>
     <title> Spill the Ink</title>
   </head>
